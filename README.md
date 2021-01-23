@@ -21,3 +21,6 @@ This directory contains the ANN model (ann.pth) and the Python code used to trai
 
 
 invert
+
+This directory contains the IDL procedure readfiles.pro, which reads the Hinode observations in FITS format, and transforms the data to the format expected by the Python code that runs the ANN to invert the data (forward.py)
+
