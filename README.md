@@ -9,6 +9,15 @@ and
 https://owncloud.iac.es/index.php/s/RGTiLn8DQPkJ8W5
 (profiles and parameters, respectively). This training set is created with the IDL procedure in create_database and the NICOLE code (see below) 
 
+
 create_database
 
-The IDL procedure prepare_syn.pro creates 1e6 model atmospheres, creates a NICOLE input file with these models, calls NICOLE and reads the output spectral profiles. 
+The IDL procedure prepare_syn.pro produces 1e6 random model atmospheres, creates a NICOLE input file with these models, calls NICOLE and reads the output spectral profiles. The code NICOLE is included in this directory as well
+
+
+ANN
+
+This directory contains the ANN model (ann.pth) and the Python code used to train it (train.py). The training code requires the files database.prof.idl and params.idl. These files are generated with the procedure in create_database (see above)
+
+
+invert
