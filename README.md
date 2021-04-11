@@ -1,4 +1,4 @@
-# Paper_SNAR21
+# Paper_2101.11445
 Codes and data in Socas-Navarro &amp; Asensio Ramos (2021)
 
 Data for DKIST/ViSP will be posted here after the first observations become available
